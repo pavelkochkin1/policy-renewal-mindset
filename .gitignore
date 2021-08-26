@@ -132,3 +132,6 @@ dmypy.json
 *.joblib
 
 *.DS_Store
+
+# dir for testing model and app
+/data_test
