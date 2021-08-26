@@ -42,10 +42,13 @@ def upload_predict():
             data = pd.read_csv(file_location, index_col='POLICY_ID', )
             pred = predictor(data)
 
-            global out_loc 
+
+
+            global out_loc, filename
+            filename = data_file.filename[:-4]
             out_loc = os.path.join(
                 UPLOAD_FOLDER,
-                data_file.filename[:-4]+"_output"+".csv",
+                filename+"_output.csv",
             )
 
             pred.to_csv(out_loc)
@@ -59,13 +62,14 @@ def upload_predict():
 
 @app.route("/download")
 def download():
+    outname = filename+"_output.csv"
     with open(out_loc) as fp:
         data = fp.read()
     return Response(
         data,
         mimetype="text/csv",
         headers={"Content-disposition":
-                 "attachment; filename=output.csv"})
+                 f"attachment; filename={outname}"})
 
 
 
