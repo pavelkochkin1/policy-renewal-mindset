@@ -12,7 +12,7 @@ import tablib
 
 
 
-UPLOAD_FOLDER = 'data_test/'
+UPLOAD_FOLDER = 'data/'
 
 app = Flask(__name__)
 
