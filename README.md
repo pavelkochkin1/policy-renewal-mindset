@@ -2,6 +2,8 @@
 [for mindset](http://mind-set.ru/)
 
 ## About project
+A service that helps to understand with what probability clients will renew the policy. Depending on this, priorities are set for call center operators who call clients, and decisions are made to further motivate clients to renew the policy.
+
 
 ## To-do list
 
