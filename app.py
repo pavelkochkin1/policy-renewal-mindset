@@ -23,8 +23,7 @@ def home():
 
 @app.route('/about')
 def about():
-
-    pass
+    return render_template('about.html')
 
 @app.route('/predict', methods=["GET", "POST"])
 def upload_predict():
