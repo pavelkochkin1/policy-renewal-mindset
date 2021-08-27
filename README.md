@@ -1,4 +1,4 @@
-# My research of classification policy renewal and deployment of model to app. 
+# My research of policy renewal and deployment of model to app. 
 [for mindset](http://mind-set.ru/)
 
 ## About project
