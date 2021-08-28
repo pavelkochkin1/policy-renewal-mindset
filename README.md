@@ -17,9 +17,9 @@ A service that helps to understand with what probability clients will renew the 
 
 ## How to run:
 1. Install and run Docker
-2. Build Docker image using `docker build . -t policy_server`
-3. Run Docker container using `docker run --rm -it -p 8888:8888 policy_server`
-4. Go to `http://localhost:8888/`
+2. Build Docker image using `docker build . -t [IMAGE NAME]`
+3. Run Docker container using `docker run --rm -it -p 8080:8080 [IMAGE NAME]`
+4. Go to `http://localhost:8080/`
 
 ## Source code
 * [research/](research/) contains my data and model research
@@ -31,3 +31,9 @@ A service that helps to understand with what probability clients will renew the 
 * [Dockerfile](Dockerfile) describes a Docker image that is used to run the app
 
 ## Example
+### About demo
+[Alt text](readme_data/about.gif)
+
+
+### Prediction demo
+[Alt text](readme_data/prediction.gif)

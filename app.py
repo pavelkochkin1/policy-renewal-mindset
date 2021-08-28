@@ -8,9 +8,6 @@ from flask import render_template, Response
 from model.utils import DataPreprocessing
 from model.model import Predictor
 
-import tablib 
-
-
 
 UPLOAD_FOLDER = 'data/'
 
