@@ -31,8 +31,8 @@ A service that helps to understand with what probability clients will renew the 
 
 ## Example
 ### About demo
-[Alt text](readme_data/about.gif)
+![alt text](readme_data/about.gif)
 
 
 ### Prediction demo
-[Alt text](readme_data/prediction.gif)
+![alt text](readme_data/prediction.gif)
