@@ -11,7 +11,7 @@ A service that helps to understand with what probability clients will renew the 
 - [x] Model ready to inference
 - [x] App for load data and make prediction
 - [x] Downloading prediction
-- [ ] Make app container
+- [x] Make app container
 - [ ] Make the output of the final table in html on the site
 
 ## How to run:
